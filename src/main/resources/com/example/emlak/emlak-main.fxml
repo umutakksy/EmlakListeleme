@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" prefHeight="827.0" prefWidth="994.0" spacing="15.0" style="-fx-background-color: linear-gradient(to bottom, #f8f9fa, #e9ecef); -fx-padding: 20;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.emlak.EmlakUI">
+    <children>
+
+        <!-- Başlık ve Arama Bölümü -->
+        <VBox alignment="CENTER" spacing="10.0" style="-fx-background-color: white; -fx-background-radius: 10; -fx-padding: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 8, 0, 0, 2);">
+            <children>
+                <TextField fx:id="txtAra" maxWidth="400.0" onKeyReleased="#aramaYap" prefHeight="35.0" promptText="🔍 Başlık, şehir veya adrese göre arama yapın..." style="-fx-background-color: #f8f9fa; -fx-text-fill: #2c3e50; -fx-prompt-text-fill: #6c757d; -fx-border-color: #dee2e6; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-radius: 5; -fx-font-size: 14px;" />
+            </children>
+        </VBox>
+
+        <!-- Tablo Bölümü -->
+        <VBox style="-fx-background-color: white; -fx-background-radius: 10; -fx-padding: 15; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 8, 0, 0, 2);">
+            <children>
+                <TableView fx:id="tabloGoruntuleme" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="210.0" prefWidth="924.0" style="-fx-background-color: transparent; -fx-control-inner-background: white; -fx-table-cell-border-color: #e9ecef; -fx-border-color: #dee2e6; -fx-border-width: 1; -fx-border-radius: 5;">
+                    <columns>
+                        <TableColumn fx:id="colBaslik" minWidth="120.0" prefWidth="140.0" text="Başlık">
+                            <cellValueFactory><PropertyValueFactory property="baslik" /></cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="colTip" minWidth="80.0" prefWidth="90.0" text="Tip">
+                            <cellValueFactory><PropertyValueFactory property="tip" /></cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="colDurum" minWidth="80.0" prefWidth="90.0" text="Durum">
+                            <cellValueFactory><PropertyValueFactory property="durum" /></cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="colSehir" minWidth="80.0" prefWidth="100.0" text="Şehir">
+                            <cellValueFactory><PropertyValueFactory property="sehir" /></cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="colAdres" minWidth="150.0" prefWidth="200.0" text="Adres">
+                            <cellValueFactory><PropertyValueFactory property="adres" /></cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="colFiyat" minWidth="100.0" prefWidth="120.0" text="Fiyat (₺)">
+                            <cellValueFactory><PropertyValueFactory property="fiyat" /></cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="colMetrekare" minWidth="70.0" prefWidth="80.0" text="m²">
+                            <cellValueFactory><PropertyValueFactory property="metrekare" /></cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="colOdaSayisi" minWidth="60.0" prefWidth="70.0" text="Oda">
+                            <cellValueFactory><PropertyValueFactory property="odaSayisi" /></cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="colFavori" minWidth="60.0" prefWidth="70.0" text="⭐">
+                            <cellValueFactory><PropertyValueFactory property="favori" /></cellValueFactory>
+                        </TableColumn>
+                    </columns>
+                    <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                    </columnResizePolicy>
+                </TableView>
+            </children>
+        </VBox>
+
+        <!-- Form ve İşlem Bölümü -->
+        <HBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="392.0" prefWidth="782.0" spacing="20.0">
+            <children>
+                <!-- Sol Panel - Form -->
+                <VBox maxHeight="-Infinity" minHeight="-Infinity" prefHeight="379.0" prefWidth="370.0" spacing="15.0" style="-fx-background-color: white; -fx-background-radius: 10; -fx-padding: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 8, 0, 0, 2);">
+                    <children>
+                        <Label text="İlan Bilgileri" textFill="#495057">
+                            <font>
+                                <Font name="System Bold" size="16.0" />
+                            </font>
+                        </Label>
+
+                        <GridPane hgap="15.0" vgap="12.0">
+                            <columnConstraints>
+                                <ColumnConstraints hgrow="NEVER" minWidth="80.0" />
+                                <ColumnConstraints hgrow="ALWAYS" minWidth="180.0" prefWidth="200.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints minHeight="30.0" prefHeight="35.0" />
+                                <RowConstraints minHeight="30.0" prefHeight="35.0" />
+                                <RowConstraints minHeight="30.0" prefHeight="35.0" />
+                                <RowConstraints minHeight="30.0" prefHeight="35.0" />
+                                <RowConstraints minHeight="30.0" prefHeight="35.0" />
+                                <RowConstraints minHeight="30.0" prefHeight="35.0" />
+                            </rowConstraints>
+                            <children>
+                                <Label text="Başlık:" textFill="#495057" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                                <TextField fx:id="txtBaslik" prefHeight="32.0" promptText="İlan başlığını girin..." style="-fx-background-color: #f8f9fa; -fx-text-fill: #2c3e50; -fx-prompt-text-fill: #6c757d; -fx-border-color: #dee2e6; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-radius: 5;" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+                                <Label text="Tip:" textFill="#495057" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                                <ComboBox fx:id="cmbTip" maxWidth="1.7976931348623157E308" prefHeight="32.0" style="-fx-background-color: #f8f9fa; -fx-text-fill: #2c3e50; -fx-border-color: #dee2e6; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-radius: 5;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+                                <Label text="Durum:" textFill="#495057" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                                <ComboBox fx:id="cmbDurum" maxWidth="1.7976931348623157E308" prefHeight="32.0" style="-fx-background-color: #f8f9fa; -fx-text-fill: #2c3e50; -fx-border-color: #dee2e6; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-radius: 5;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+                                <Label text="Şehir:" textFill="#495057" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+                                <TextField fx:id="txtSehir" prefHeight="32.0" promptText="Şehir adını girin..." style="-fx-background-color: #f8f9fa; -fx-text-fill: #2c3e50; -fx-prompt-text-fill: #6c757d; -fx-border-color: #dee2e6; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-radius: 5;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+                                <Label text="Adres:" textFill="#495057" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+                                <TextField fx:id="txtAdres" prefHeight="32.0" promptText="Detaylı adres bilgisi..." style="-fx-background-color: #f8f9fa; -fx-text-fill: #2c3e50; -fx-prompt-text-fill: #6c757d; -fx-border-color: #dee2e6; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-radius: 5;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+
+                                <Label text="Fiyat (₺):" textFill="#495057" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+                                <TextField fx:id="txtFiyat" prefHeight="32.0" promptText="Fiyat bilgisi..." style="-fx-background-color: #f8f9fa; -fx-text-fill: #2c3e50; -fx-prompt-text-fill: #6c757d; -fx-border-color: #dee2e6; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-radius: 5;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                            </children>
+                        </GridPane>
+
+                        <HBox spacing="10.0">
+                            <children>
+                                <VBox spacing="5.0" HBox.hgrow="ALWAYS">
+                                    <children>
+                                        <Label text="Metrekare:" textFill="#495057" />
+                                        <TextField fx:id="txtMetrekare" prefHeight="32.0" promptText="m²..." style="-fx-background-color: #f8f9fa; -fx-text-fill: #2c3e50; -fx-prompt-text-fill: #6c757d; -fx-border-color: #dee2e6; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                                    </children>
+                                </VBox>
+                                <VBox spacing="5.0" HBox.hgrow="ALWAYS">
+                                    <children>
+                                        <Label text="Oda Sayısı:" textFill="#495057" />
+                                        <ComboBox fx:id="cmbOdaSayisi" maxWidth="1.7976931348623157E308" prefHeight="32.0" style="-fx-background-color: #f8f9fa; -fx-text-fill: #2c3e50; -fx-border-color: #dee2e6; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                                    </children>
+                                </VBox>
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+
+                <!-- Sağ Panel - İşlemler -->
+                <VBox spacing="15.0">
+                    <children>
+                        <!-- İlan İşlemleri -->
+                        <VBox spacing="10.0" style="-fx-background-color: white; -fx-background-radius: 10; -fx-padding: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 8, 0, 0, 2);">
+                            <children>
+                                <Label text="İlan İşlemleri" textFill="#495057">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                                <HBox spacing="10.0">
+                                    <children>
+                                        <Button fx:id="btnEkle" onAction="#emlakEkle" prefHeight="35.0" prefWidth="80.0" style="-fx-background-color: #28a745; -fx-text-fill: white; -fx-border-radius: 5; -fx-background-radius: 5; -fx-font-weight: bold;" text="➕ Ekle" />
+                                        <Button fx:id="btnGuncelle" onAction="#emlakGuncelle" prefHeight="35.0" prefWidth="90.0" style="-fx-background-color: #007bff; -fx-text-fill: white; -fx-border-radius: 5; -fx-background-radius: 5; -fx-font-weight: bold;" text="✏ Güncelle" />
+                                        <Button fx:id="btnSil" onAction="#emlakSil" prefHeight="35.0" prefWidth="70.0" style="-fx-background-color: #dc3545; -fx-text-fill: white; -fx-border-radius: 5; -fx-background-radius: 5; -fx-font-weight: bold;" text="🗑 Sil" />
+                                        <Button fx:id="btnGeriAl" onAction="#geriAl" prefHeight="35.0" prefWidth="80.0" style="-fx-background-color: #fd7e14; -fx-text-fill: white; -fx-border-radius: 5; -fx-background-radius: 5; -fx-font-weight: bold;" text="↶ Geri Al" />
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+
+                        <!-- Favori İşlemleri -->
+                        <VBox spacing="10.0" style="-fx-background-color: white; -fx-background-radius: 10; -fx-padding: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 8, 0, 0, 2);">
+                            <children>
+                                <Label text="Favori İşlemleri" textFill="#495057">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                                <HBox spacing="10.0">
+                                    <children>
+                                        <Button fx:id="btnFavoriyeEkle" onAction="#favoriyeEkle" prefHeight="35.0" prefWidth="130.0" style="-fx-background-color: #ffc107; -fx-text-fill: #212529; -fx-border-radius: 5; -fx-background-radius: 5; -fx-font-weight: bold;" text="⭐ Favoriye Ekle" />
+                                        <Button fx:id="btnFavorileriGoster" onAction="#favorileriGoster" prefHeight="35.0" prefWidth="140.0" style="-fx-background-color: #17a2b8; -fx-text-fill: white; -fx-border-radius: 5; -fx-background-radius: 5; -fx-font-weight: bold;" text="💖 Favorileri Göster" />
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+
+                        <!-- Filtreleme ve Sıralama -->
+                        <VBox prefHeight="136.0" prefWidth="392.0" spacing="10.0" style="-fx-background-color: white; -fx-background-radius: 10; -fx-padding: 20; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 8, 0, 0, 2);">
+                            <children>
+                                <Label text="Filtreleme ve Sıralama" textFill="#495057">
+                                    <font>
+                                        <Font name="System Bold" size="14.0" />
+                                    </font>
+                                </Label>
+                                <VBox spacing="8.0">
+                                    <children>
+                                        <HBox spacing="10.0">
+                                            <children>
+                                                <Button fx:id="btnTumunuGoster" onAction="#tumunuGoster" prefHeight="32.0" prefWidth="110.0" style="-fx-background-color: #6c757d; -fx-text-fill: white; -fx-border-radius: 5; -fx-background-radius: 5;" text="📋 Tümünü Göster" />
+                                                <Button fx:id="btnSehirFiltrele" onAction="#sehirFiltrele" prefHeight="32.0" prefWidth="100.0" style="-fx-background-color: #6f42c1; -fx-text-fill: white; -fx-border-radius: 5; -fx-background-radius: 5;" text="🏙 Şehir Filtre" />
+                                            </children>
+                                        </HBox>
+                                        <HBox spacing="10.0">
+                                            <children>
+                                                <Button fx:id="btnDurumFiltrele" onAction="#durumFiltrele" prefHeight="32.0" prefWidth="110.0" style="-fx-background-color: #e83e8c; -fx-text-fill: white; -fx-border-radius: 5; -fx-background-radius: 5;" text="📊 Durum Filtre" />
+                                                <Button fx:id="btnFiyataSirala" onAction="#fiyataSirala" prefHeight="32.0" prefWidth="100.0" style="-fx-background-color: #20c997; -fx-text-fill: white; -fx-border-radius: 5; -fx-background-radius: 5;" text="💰 Fiyat Sırala" />
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                            </children>
+                        </VBox>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+
+    </children>
+</VBox>
