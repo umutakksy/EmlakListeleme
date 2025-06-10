@@ -1,4 +1,3 @@
-```markdown
 # Emlak Listeleme ve Yönetim Uygulaması
 
 Bu proje, Java ve JavaFX kullanılarak geliştirilmiş bir masaüstü emlak listeleme ve yönetim uygulamasıdır. Kullanıcıların yeni emlak ilanları eklemesine, mevcut ilanları görüntülemesine, detaylarını güncellemesine, silmesine, filtrelemesine ve çeşitli kriterlere göre sıralamasına olanak tanır.
@@ -27,7 +26,7 @@ Bu proje, Java ve JavaFX kullanılarak geliştirilmiş bir masaüstü emlak list
 
 ## Proje Yapısı
 
-```
+
 EmlakListeleme/
 ├── .mvn/
 ├── .idea/
@@ -56,7 +55,7 @@ EmlakListeleme/
 ├── emlaklar.json              # Emlak verilerinin depolandığı JSON dosyası
 ├── pom.xml                    # Maven proje yapılandırma dosyası
 └── README.md                  # Proje README dosyası
-```
+
 
 ## Gereksinimler
 
