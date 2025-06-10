@@ -24,36 +24,6 @@ Bu proje, Java ve JavaFX kullanılarak geliştirilmiş bir masaüstü emlak list
     * **LinkedList**: Favori ilanları yönetmek için kullanılır.
     * **Stack**: Geri alma (undo) işlemlerini yönetmek için kullanılır.
 
-EmlakListeleme/
-├── .mvn/
-├── .idea/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── emlak/
-│   │   │               ├── Emlak.java             # Emlak modeli sınıfı
-│   │   │               ├── EmlakApp.java          # Ana uygulama sınıfı
-│   │   │               ├── EmlakIslem.java        # Geri alma işlemleri için yardımcı sınıf
-│   │   │               ├── EmlakManager.java      # İş mantığı ve veri yönetimi
-│   │   │               ├── EmlakUI.java           # JavaFX arayüz kontrolörü
-│   │   │               └── veriyapilari/
-│   │   │                   ├── HashMap.java       # Özel HashMap implementasyonu
-│   │   │                   ├── LinkedList.java    # Özel LinkedList implementasyonu
-│   │   │                   ├── Liste.java         # Özel Dinamik Boyutlu Liste implementasyonu
-│   │   │                   ├── Stack.java         # Özel Stack implementasyonu
-│   │   │                   └── TreeSet.java       # Özel TreeSet implementasyonu
-│   │   └── resources/
-│   │       └── com/
-│   │           └── example/
-│   │               └── emlak/
-│   │                   └── emlak-main.fxml        # JavaFX arayüz tanımı
-├── emlaklar.json              # Emlak verilerinin depolandığı JSON dosyası
-├── pom.xml                    # Maven proje yapılandırma dosyası
-└── README.md                  # Proje README dosyası
-
-
 
 ## Gereksinimler
 
