@@ -1,0 +1,521 @@
+[ {
+  "baslik" : "Modern Daire Kadıköy",
+  "tip" : "Daire",
+  "durum" : "Kiralık",
+  "sehir" : "İstanbul",
+  "adres" : "Fenerbahçe Mahallesi",
+  "fiyat" : 1750000.0,
+  "metrekare" : 130,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Lüks Deniz Manzaralı Villa",
+  "tip" : "Villa",
+  "durum" : "Satılık",
+  "sehir" : "Antalya",
+  "adres" : "Konyaaltı Sahil",
+  "fiyat" : 4500000.0,
+  "metrekare" : 300,
+  "odaSayisi" : "5+",
+  "favori" : false
+}, {
+  "baslik" : "Merkezi Ofis",
+  "tip" : "İşyeri",
+  "durum" : null,
+  "sehir" : "Ankara",
+  "adres" : "Çankaya İş Merkezi",
+  "fiyat" : 12000.0,
+  "metrekare" : 90,
+  "odaSayisi" : "2",
+  "favori" : false
+}, {
+  "baslik" : "Yeni Daire Bornova",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "İzmir",
+  "adres" : "Bornova Merkez",
+  "fiyat" : 950000.0,
+  "metrekare" : 110,
+  "odaSayisi" : "2",
+  "favori" : false
+}, {
+  "baslik" : "Bahçeli Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Bursa",
+  "adres" : "Nilüfer Bahçe",
+  "fiyat" : 3200000.0,
+  "metrekare" : 250,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Şehir Merkezinde Daire",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "Adana",
+  "adres" : "Seyhan Bulvarı",
+  "fiyat" : 800000.0,
+  "metrekare" : 85,
+  "odaSayisi" : "2",
+  "favori" : false
+}, {
+  "baslik" : "Kiralık İşyeri",
+  "tip" : "İşyeri",
+  "durum" : null,
+  "sehir" : "Gaziantep",
+  "adres" : "Şehitkamil Plaza",
+  "fiyat" : 15000.0,
+  "metrekare" : 120,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Geniş Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Konya",
+  "adres" : "Meram Bağları",
+  "fiyat" : 2800000.0,
+  "metrekare" : 200,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Lüks Daire Beşiktaş 1903",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "İstanbul",
+  "adres" : "Beşiktaş Sahil",
+  "fiyat" : 2200000.0,
+  "metrekare" : 150,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Deniz Kenarı Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Antalya",
+  "adres" : "Lara Plajı",
+  "fiyat" : 5200000.0,
+  "metrekare" : 350,
+  "odaSayisi" : "5+",
+  "favori" : false
+}, {
+  "baslik" : "Kiralık Ofis Ümitköy",
+  "tip" : "İşyeri",
+  "durum" : null,
+  "sehir" : "Ankara",
+  "adres" : "Ümitköy İş Hanı",
+  "fiyat" : 9000.0,
+  "metrekare" : 70,
+  "odaSayisi" : "1",
+  "favori" : false
+}, {
+  "baslik" : "Konforlu Daire",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "İzmir",
+  "adres" : "Alsancak Merkez",
+  "fiyat" : 1200000.0,
+  "metrekare" : 100,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Bahçe Katı Daire",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "Bursa",
+  "adres" : "Görükle Mahallesi",
+  "fiyat" : 650000.0,
+  "metrekare" : 90,
+  "odaSayisi" : "2",
+  "favori" : false
+}, {
+  "baslik" : "Merkezi İşyeri",
+  "tip" : "İşyeri",
+  "durum" : null,
+  "sehir" : "Adana",
+  "adres" : "Çakmak Caddesi",
+  "fiyat" : 20000.0,
+  "metrekare" : 150,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Lüks Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Gaziantep",
+  "adres" : "İbrahimli Bölgesi",
+  "fiyat" : 4000000.0,
+  "metrekare" : 280,
+  "odaSayisi" : "5+",
+  "favori" : false
+}, {
+  "baslik" : "Yeni Daire Selçuklu",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "Konya",
+  "adres" : "Selçuklu Merkez",
+  "fiyat" : 1100000.0,
+  "metrekare" : 120,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Şık Daire Şişli",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "İstanbul",
+  "adres" : "Şişli Merkez",
+  "fiyat" : 1900000.0,
+  "metrekare" : 140,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Havuzlu Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Antalya",
+  "adres" : "Döşemealtı",
+  "fiyat" : 6000000.0,
+  "metrekare" : 400,
+  "odaSayisi" : "5+",
+  "favori" : false
+}, {
+  "baslik" : "Modern Ofis",
+  "tip" : "İşyeri",
+  "durum" : null,
+  "sehir" : "Ankara",
+  "adres" : "Kızılay Plaza",
+  "fiyat" : 18000.0,
+  "metrekare" : 110,
+  "odaSayisi" : "2",
+  "favori" : false
+}, {
+  "baslik" : "Deniz Manzaralı Daire",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "İzmir",
+  "adres" : "Göztepe Sahil",
+  "fiyat" : 1400000.0,
+  "metrekare" : 125,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Geniş Villa Nilüfer",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Bursa",
+  "adres" : "Nilüfer Sitesi",
+  "fiyat" : 3500000.0,
+  "metrekare" : 270,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Kompakt Daire",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "Adana",
+  "adres" : "Ziyapaşa Bulvarı",
+  "fiyat" : 700000.0,
+  "metrekare" : 80,
+  "odaSayisi" : "2",
+  "favori" : false
+}, {
+  "baslik" : "Kiralık İşyeri",
+  "tip" : "İşyeri",
+  "durum" : null,
+  "sehir" : "Gaziantep",
+  "adres" : "Primemall Yakını",
+  "fiyat" : 25000.0,
+  "metrekare" : 200,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Merkezi Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Konya",
+  "adres" : "Beysehir Yolu",
+  "fiyat" : 2900000.0,
+  "metrekare" : 230,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Lüks Daire Ataşehir",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "İstanbul",
+  "adres" : "Ataşehir Sitesi",
+  "fiyat" : 2300000.0,
+  "metrekare" : 160,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Deniz Manzaralı Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Antalya",
+  "adres" : "Kepez Bölgesi",
+  "fiyat" : 4800000.0,
+  "metrekare" : 320,
+  "odaSayisi" : "5+",
+  "favori" : false
+}, {
+  "baslik" : "Kiralık Ofis",
+  "tip" : "İşyeri",
+  "durum" : null,
+  "sehir" : "Ankara",
+  "adres" : "Söğütözü İş Merkezi",
+  "fiyat" : 10000.0,
+  "metrekare" : 85,
+  "odaSayisi" : "1",
+  "favori" : false
+}, {
+  "baslik" : "Yeni Daire Karşıyaka",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "İzmir",
+  "adres" : "Karşıyaka Merkez",
+  "fiyat" : 1100000.0,
+  "metrekare" : 115,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Bahçeli Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Bursa",
+  "adres" : "Mudanya Sahil",
+  "fiyat" : 3800000.0,
+  "metrekare" : 290,
+  "odaSayisi" : "5+",
+  "favori" : false
+}, {
+  "baslik" : "Kompakt Daire",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "Adana",
+  "adres" : "Turgut Özal Bulvarı",
+  "fiyat" : 850000.0,
+  "metrekare" : 95,
+  "odaSayisi" : "2",
+  "favori" : false
+}, {
+  "baslik" : "Merkezi İşyeri",
+  "tip" : "İşyeri",
+  "durum" : null,
+  "sehir" : "Gaziantep",
+  "adres" : "Sanko Park Yakını",
+  "fiyat" : 22000.0,
+  "metrekare" : 180,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Lüks Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Konya",
+  "adres" : "Meram Sitesi",
+  "fiyat" : 3100000.0,
+  "metrekare" : 260,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Modern Daire",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "İstanbul",
+  "adres" : "Bağdat Caddesi",
+  "fiyat" : 2000000.0,
+  "metrekare" : 140,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Havuzlu Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Antalya",
+  "adres" : "Alanya Sahil",
+  "fiyat" : 5500000.0,
+  "metrekare" : 360,
+  "odaSayisi" : "5+",
+  "favori" : false
+}, {
+  "baslik" : "Kiralık Ofis",
+  "tip" : "İşyeri",
+  "durum" : null,
+  "sehir" : "Ankara",
+  "adres" : "Bahçelievler Plaza",
+  "fiyat" : 13000.0,
+  "metrekare" : 100,
+  "odaSayisi" : "2",
+  "favori" : false
+}, {
+  "baslik" : "Deniz Manzaralı Daire",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "İzmir",
+  "adres" : "Narlıdere Sahil",
+  "fiyat" : 1300000.0,
+  "metrekare" : 120,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Geniş Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Bursa",
+  "adres" : "Osmangazi Bağları",
+  "fiyat" : 3400000.0,
+  "metrekare" : 280,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Kompakt Daire",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "Adana",
+  "adres" : "Cemalpaşa Mahallesi",
+  "fiyat" : 750000.0,
+  "metrekare" : 90,
+  "odaSayisi" : "2",
+  "favori" : false
+}, {
+  "baslik" : "Merkezi İşyeri",
+  "tip" : "İşyeri",
+  "durum" : null,
+  "sehir" : "Gaziantep",
+  "adres" : "Kavaklık Mahallesi",
+  "fiyat" : 17000.0,
+  "metrekare" : 140,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Lüks Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Konya",
+  "adres" : "Selçuklu Bağları",
+  "fiyat" : 3000000.0,
+  "metrekare" : 250,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Modern Daire",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "İstanbul",
+  "adres" : "Etiler Mahallesi",
+  "fiyat" : 2100000.0,
+  "metrekare" : 150,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Havuzlu Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Antalya",
+  "adres" : "Muratpaşa",
+  "fiyat" : 5700000.0,
+  "metrekare" : 380,
+  "odaSayisi" : "5+",
+  "favori" : false
+}, {
+  "baslik" : "Kiralık Ofis",
+  "tip" : "İşyeri",
+  "durum" : null,
+  "sehir" : "Ankara",
+  "adres" : "Yenimahalle Plaza",
+  "fiyat" : 11000.0,
+  "metrekare" : 95,
+  "odaSayisi" : "2",
+  "favori" : false
+}, {
+  "baslik" : "Deniz Manzaralı Daire",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "İzmir",
+  "adres" : "Çeşme Merkez",
+  "fiyat" : 1500000.0,
+  "metrekare" : 130,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Geniş Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Bursa",
+  "adres" : "Yıldırım Sitesi",
+  "fiyat" : 3600000.0,
+  "metrekare" : 300,
+  "odaSayisi" : "5+",
+  "favori" : false
+}, {
+  "baslik" : "Kompakt Daire",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "Adana",
+  "adres" : "Reşatbey Mahallesi",
+  "fiyat" : 900000.0,
+  "metrekare" : 100,
+  "odaSayisi" : "2",
+  "favori" : false
+}, {
+  "baslik" : "Merkezi İşyeri",
+  "tip" : "İşyeri",
+  "durum" : null,
+  "sehir" : "Gaziantep",
+  "adres" : "Gazi Muhtar Paşa",
+  "fiyat" : 19000.0,
+  "metrekare" : 160,
+  "odaSayisi" : "3",
+  "favori" : false
+}, {
+  "baslik" : "Lüks Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Konya",
+  "adres" : "Karatay Bölgesi",
+  "fiyat" : 3200000.0,
+  "metrekare" : 270,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Modern Daire",
+  "tip" : "Daire",
+  "durum" : null,
+  "sehir" : "İstanbul",
+  "adres" : "Levent Mahallesi",
+  "fiyat" : 2400000.0,
+  "metrekare" : 160,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Havuzlu Villa",
+  "tip" : "Villa",
+  "durum" : null,
+  "sehir" : "Antalya",
+  "adres" : "Kemer Sahil",
+  "fiyat" : 5900000.0,
+  "metrekare" : 390,
+  "odaSayisi" : "5+",
+  "favori" : false
+}, {
+  "baslik" : "Kafe",
+  "tip" : "İşyeri",
+  "durum" : null,
+  "sehir" : "İstanbul",
+  "adres" : "Fatih",
+  "fiyat" : 5000.0,
+  "metrekare" : 80,
+  "odaSayisi" : "4",
+  "favori" : false
+}, {
+  "baslik" : "Fatih",
+  "tip" : "Daire",
+  "durum" : "Kiralık",
+  "sehir" : "İstanbul",
+  "adres" : "Fatih",
+  "fiyat" : 50.0,
+  "metrekare" : 50,
+  "odaSayisi" : "4",
+  "favori" : false
+} ]
